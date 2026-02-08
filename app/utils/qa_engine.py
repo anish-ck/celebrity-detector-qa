@@ -18,7 +18,7 @@ class QAEngine:
                     You are a AI Assistant that knows a lot about celebrities. You have to answer questions about {name} concisely and accurately.
                     Question : {question}
                     """
-        
+         
         payload  = {
             "model" : self.model,
             "messages" : [{"role" : "user" , "content" : prompt}],
